@@ -28,6 +28,7 @@ class Targets3(Target):
                     required=True,
                     allowed_values=[
                         "parquet",
+                        "csv",
                         "json",
                         "jsonl",
                     ],  # TODO: configure this from class
